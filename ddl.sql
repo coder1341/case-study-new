@@ -23,7 +23,6 @@ CREATE TABLE patients (
 );  
 
 
-
 SELECT DATE(created_at) AS visit_date,
  COUNT(*) AS number_of_visits FROM hospital_visits
   GROUP BY DATE(created_at) ORDER BY visit_date; 
