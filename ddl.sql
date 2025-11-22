@@ -15,7 +15,6 @@ CREATE TABLE doctors (
 );  
 
 
-
 CREATE TABLE patients (
     id SERIAL PRIMARY KEY,
     name INT NOT NULL,
